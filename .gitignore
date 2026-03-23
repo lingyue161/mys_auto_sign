@@ -1,0 +1,26 @@
+# 账号数据（包含敏感凭证，绝不能提交！）
+data/
+config/
+
+# PyInstaller 构建产物
+build/
+dist/
+*.spec
+
+# 登录/调试临时文件
+login_data.json
+qrcode.png
+manual_login.py
+refresh_token.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
