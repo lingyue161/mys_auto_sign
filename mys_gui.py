@@ -1350,14 +1350,10 @@ class AboutDialog(tk.Toplevel):
         ad_frame = tk.Frame(frame, bg="#FFF8E1", bd=0,
                             highlightbackground="#FFB74D", highlightthickness=1)
         ad_frame.pack(fill="x", pady=(6, 4))
-        tk.Label(ad_frame, text="⚠ 此软件完全免费，如果你是花钱买的请尽快退款！",
-                 font=("Microsoft YaHei UI", 9, "bold"),
-                 bg="#FFF8E1", fg="#E65100",
-                 wraplength=480).pack(padx=10, pady=(6, 2))
-        tk.Label(ad_frame, text="做这个工具全凭热爱，没有任何收益~\n觉得好用的话，能不能顺手逛逛闲鱼小店？就当给我加个鸡腿🥺",
+        tk.Label(ad_frame, text="本工具永久免费使用。\n\n如需：免运行自动签到（无需开电脑）/ 多账号稳定托管 / 或一对一配置支持\n\n可查看作者主页获取服务说明。",
                  font=("Microsoft YaHei UI", 9),
                  bg="#FFF8E1", fg="#1565C0",
-                 wraplength=480, justify="center").pack(padx=10, pady=2)
+                 wraplength=480, justify="center").pack(padx=10, pady=(8, 4))
         ad_link = tk.Label(ad_frame, text=">>> 逛逛闲鱼小店 >>>",
                            font=("Microsoft YaHei UI", 9, "bold"),
                            bg="#FFF8E1", fg="#FF6A00", cursor="hand2", underline=True)
